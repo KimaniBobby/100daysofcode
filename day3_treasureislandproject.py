@@ -49,13 +49,14 @@ elif path == "left":
                 print("Attacked by grizzly bear and her 10 cubs. GAMEOVER!!!")
         if door == "red":
             print("You fall into a VAT of acid.GAME OVER!!!")
-        
         elif door == "yellow":
-            print("You win")
+            print("You found the treasuer!! You win!!")
         elif door == "blue":
-            print("Eaten by a pack of  hungry wolves")
+            print("Eaten by a pack of hungry wolves")
         else:
             print("GAME OVER YOU SORE LOSER!!!!")
+else:
+  print("Invalid input!!")
 
 
 
