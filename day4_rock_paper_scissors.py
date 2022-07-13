@@ -38,7 +38,7 @@ print(f"You have selected, {selection}")
 computer_selection = random.randint(0,2)
 
 if selection >=3 or computer_selection <0:
-    print("You typed an invalid number,you lose")
+    print("You typed an invalid number,you")
 
 print(f"The computer has selected {computer_selection}")
 
