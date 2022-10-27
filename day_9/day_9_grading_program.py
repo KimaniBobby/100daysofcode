@@ -11,18 +11,15 @@ student_scores = {
 student_grades = {}
 #TODO-2: Write your code below to add the grades to student_grades.👇
 
-
-for key, value in dict(student_scores).items():
-    score = student_scores[key]
-    if value > 90:
-        student_grades[key] ="Outstanding"
-    elif value > 80:
-        student_grades[key]= "Exceeds Expectations"
-    elif value > 70:
-        student_grades[key] = "Acceptable"
+for student in student_scores:
+    score = student_scores[student]
+    if score > 90:
+        student_grades[student] ="Outstanding"
+    elif score > 80:
+        student_grades[student] = "Exceeds Expectations"
+    elif score > 70:
+        student_grades[student] = "Acceptable"
     else:
-        student_grades[key] = "Fail"
+        student_grades[student] = "Fail"
 
-# 🚨 Don't change the code below 👇
 print(student_grades)
-
